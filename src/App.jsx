@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Button from "./components/button";
-import Item from "./components/item";
+import Button from "./components/Button";
+import Item from "./components/Item";
 
 export default function App() {
   const [toDoList, setToDoList] = useState([]);
